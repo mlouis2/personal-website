@@ -1,0 +1,80 @@
+.naviBox {
+     width: 80%;
+     display: block;
+     background-color: #eeaa7b;
+     margin: 50px 0px 0px 50px;
+     border: 10px solid white;
+     overflow: auto;
+     top: 50;
+}
+
+#shortcut {
+     font-size: 20px;
+     text-align: center;
+     padding: 20px 20px 20px 20px;
+}
+
+#shortcut:hover {
+     background: #e37222;
+     color: white;
+}
+
+.content {
+    overflow: auto;
+    margin-top: 30px;
+    height: 75%;
+}
+
+.section {
+     background-color: #eeaa7b;
+     border: 10px solid white;
+     margin: 20px 20px 20px 20px;
+}
+
+.sectionTitle {
+     display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+     clear: both;
+     font-size: 30px;
+     padding: 5px 0px 10px 5px;
+}
+
+.sectionContent {
+     clear: both;
+}
+
+#description, #duration, #location {
+     padding-left: 20px;
+}
+
+#duration, #location {
+     margin-left: 30px;
+     font-size: 20px;
+     border-left: 5px solid #07889b;
+}
+
+#duration {
+     margin-top: 20px;
+     margin-bottom: 0px;
+}
+
+#location {
+     margin-top: 0px;
+     margin-bottom: 0px;
+}
+
+#description {
+     margin-top: 10px;
+     font-size: 20px;
+     padding-right: 10px;
+}
+
+#description a {
+    color: #07889b;
+}
+
+#description a:hover {
+    color: #e37222;
+}

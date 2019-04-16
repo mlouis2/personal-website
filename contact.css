@@ -1,0 +1,34 @@
+#contact {
+     background: #07889b;
+}
+
+.contactMethodsContainer {
+     background: #eeaa7b;
+     width: 90%;
+     text-align: center;
+     height: 60%;
+     margin-left: 5%;
+     display: inline-block;
+}
+
+.contactMethod {
+     width: 20%;
+     display: inline-block;
+}
+
+.contactImage {
+     width: 100%;
+     height: 60%;
+     margin: 30% 0px 0px 0px;
+     background: white;
+     border-radius: 20px;
+     display: inline-block;
+}
+
+#github {
+     margin-right: 10%;
+}
+
+#email {
+     margin-left: 10%;
+}

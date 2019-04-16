@@ -1,0 +1,37 @@
+#aboutMe {
+     background: #07889b;
+}
+
+.aboutMe {
+     width: 80%;
+     display: block;
+     margin: 50px;
+     background-color: #eeaa7b;
+     border: 10px solid white;
+     overflow: auto;
+}
+
+img {
+     width: 60%;
+     border-radius: 20px;
+     margin-top: 15%;
+     margin-left: 20%;
+     border: 10px solid white;
+}
+
+#aboutMeTitle {
+     font-size: 40px;
+}
+
+p, ul {
+     font-size: 20px;
+     color: white;
+}
+
+p {
+     padding: 20px;
+}
+
+.content {
+     height: 85%;
+}
