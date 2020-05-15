@@ -1,0 +1,25 @@
+#headerBar {
+  display: flex;
+  height: 15vh;
+  justify-content: space-evenly;
+}
+
+#title {
+  font-size: 5vw;
+  line-height: 15vh;
+}
+
+#iconsLeft,
+#iconsRight {
+  display: flex;
+  padding-top: 5px;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 30vw;
+}
+
+.icon {
+  color: black;
+  cursor: pointer;
+  text-align: center;
+}
