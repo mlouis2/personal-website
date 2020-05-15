@@ -1,8 +1,14 @@
 import React, { useState } from 'react';
 import Header from "./Header.js";
-import WelcomeContent from "./WelcomeContent.js"
-import './App.css';
-import COLORS from "./colors.js";
+import './styles/App.css';
+import COLORS from "./styles/colors.js";
+
+import Welcome from "./content/Welcome.js"
+import Experience from "./content/Experience.js"
+import Projects from "./content/Projects.js"
+import Skills from "./content/Skills.js"
+import Resume from "./content/Resume.js"
+import Contact from "./content/Contact.js"
 
 const LABEL_INDICES = {
   "Home": 0,
@@ -18,9 +24,29 @@ function App() {
 
   function iconSelected(label) {
     setTabIndex(LABEL_INDICES[label]);
-    console.log("test", label);
   }
-  return <div id="app" style={{ backgroundColor: COLORS.BEIGE }}> {Header({ iconSelected })}{WelcomeContent()}</div >;
+
+  function Content() {
+    switch (tabIndex) {
+      case LABEL_INDICES["Home"]:
+        return Welcome();
+      case LABEL_INDICES["Experience"]:
+        return Experience();
+      case LABEL_INDICES["Projects"]:
+        return Projects();
+      case LABEL_INDICES["Courses/Skills"]:
+        return Skills();
+      case LABEL_INDICES["Resume"]:
+        return Resume();
+      case LABEL_INDICES["Contact"]:
+        return Contact();
+      default:
+        console.log("Something went wrong... Looking for a page that doesn't exist.");
+        break;
+    }
+  }
+
+  return <div id="app" style={{ backgroundColor: COLORS.BEIGE }}> {Header({ iconSelected })}{Content()}</div >;
 }
 
 export default App;

@@ -1,6 +1,6 @@
 import React from 'react';
-import './Header.css';
-import COLORS from './colors.js'
+import './styles/Header.css';
+import COLORS from './styles/colors.js'
 
 function Header({ iconSelected }) {
     return (
