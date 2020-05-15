@@ -15,6 +15,7 @@
 }
 
 #photo img {
+  border: 2px solid black;
   border-radius: 150px;
   float: left;
   height: 20vw;
@@ -23,12 +24,13 @@
 
 #card {
   background-color: #81b29a;
+  border: 2px solid black;
   border-radius: 20px;
   float: right;
   font-size: 20px;
   padding: 10px;
   padding-left: 15px;
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: left;
   width: 35vw;
 }

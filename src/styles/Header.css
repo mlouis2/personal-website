@@ -1,11 +1,12 @@
 #headerBar {
+  border-bottom: 2px solid black;
   display: flex;
   height: 15%;
   justify-content: space-evenly;
 }
 
 #title {
-  font-size: 50px;
+  font-size: 60px;
   line-height: 15vh;
 }
 

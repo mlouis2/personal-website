@@ -16,7 +16,7 @@ function Welcome() {
                     <br />
                     <p>
                         My name is Maddie Louis and I am a rising senior computer science major at Loyola
-                        Marymount University. Click around my website to learn more about me and my work!
+                        Marymount University in Los Angeles, California. Click around my website to learn more about me and my work!
                     </p>
                 </div>
             </div>
