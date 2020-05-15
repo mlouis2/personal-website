@@ -1,0 +1,38 @@
+#welcome {
+  color: #f4f1de;
+  height: 85%;
+  text-align: -webkit-center;
+  width: 100%;
+}
+
+#intro {
+  display: flex;
+  height: 40vh;
+  justify-content: space-evenly;
+  padding: 15px;
+  padding-top: 8%;
+  width: 60vw;
+}
+
+#photo img {
+  border-radius: 150px;
+  float: left;
+  height: 20vw;
+  width: 20vw;
+}
+
+#card {
+  background-color: #81b29a;
+  border-radius: 20px;
+  float: right;
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 15px;
+  margin-top: 20px;
+  text-align: left;
+  width: 35vw;
+}
+
+#cardTitle {
+  font-size: 50px;
+}

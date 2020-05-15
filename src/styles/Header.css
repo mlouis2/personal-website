@@ -1,6 +1,6 @@
 #headerBar {
   display: flex;
-  height: 15vh;
+  height: 15%;
   justify-content: space-evenly;
 }
 
