@@ -6,7 +6,6 @@ import COLORS from '../styles/colors.js'
 function Experience() {
     return (
         <div id="experienceList" style={{ backgroundColor: COLORS.BEIGE }}>
-            <div id="searchBar"></div>
             <div className="experiences">
                 <div className="experience">
                     <div className="header">
