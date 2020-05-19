@@ -1,7 +1,7 @@
 #headerBar {
   border-bottom: 2px solid black;
   display: flex;
-  height: 15%;
+  height: 17%;
   justify-content: space-evenly;
 }
 

@@ -1,6 +1,6 @@
 #welcome {
   color: #f4f1de;
-  height: 85%;
+  height: 83%;
   text-align: -webkit-center;
   width: 100%;
 }
@@ -28,6 +28,7 @@
   border-radius: 20px;
   float: right;
   font-size: 20px;
+  overflow: scroll;
   padding: 10px;
   padding-left: 15px;
   margin-top: 10px;
