@@ -1,0 +1,38 @@
+#skillsAndCourses {
+  text-align: -webkit-center;
+}
+
+#skills {
+  font-size: 20px;
+  text-align: left;
+  width: 65%;
+}
+
+.skillSet {
+  padding-top: 40px;
+}
+
+#courseHeading {
+  font-size: 40px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+.courseRow {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 15px;
+}
+
+.course {
+  border: 2px solid black;
+  border-radius: 15px;
+  color: white;
+  padding: 10px;
+  width: 30vw;
+}
+
+.courseTitle {
+  font-size: 25px;
+  padding-bottom: 5px;
+}

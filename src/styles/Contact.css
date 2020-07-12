@@ -1,0 +1,20 @@
+#contact {
+  text-align: -webkit-center;
+}
+
+#contactOptions {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 100px;
+  width: 60%;
+}
+
+.contactOption {
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+.contactOption img {
+  height: 100px;
+  width: 100px;
+}
