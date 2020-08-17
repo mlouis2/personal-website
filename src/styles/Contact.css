@@ -2,19 +2,14 @@
   text-align: -webkit-center;
 }
 
+#contactTitle {
+  font-size: 50px;
+  padding-top: 30px;
+}
+
 #contactOptions {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 100px;
+  padding-top: 50px;
   width: 60%;
-}
-
-.contactOption {
-  border: 2px solid black;
-  border-radius: 30px;
-}
-
-.contactOption img {
-  height: 100px;
-  width: 100px;
 }

@@ -29,12 +29,12 @@ function Projects() {
                         <div className="links">
                             <div className="projectLink">
                                 <a href="https://hardlyfivefeet.github.io/r0b0p/">
-                                    <img src={require("../images/r0b0p.png")}></img>
+                                    <img src="https://img.icons8.com/wired/64/000000/search.png"/>
                                 </a>
                             </div>
                             <div className="projectLink">
                                 <a href="https://github.com/hardlyfivefeet/r0b0p">
-                                    <img src={require("../images/github.png")}></img>
+                                    <img src="https://img.icons8.com/wired/64/000000/github.png"/>
                                 </a>
                             </div>
                         </div>
@@ -59,22 +59,17 @@ function Projects() {
                         <div className="links">
                             <div className="projectLink">
                                 <a href="http://chinashopbully.online/">
-                                    <img src={require("../images/bull.png")}></img>
+                                    <img src="https://img.icons8.com/wired/64/000000/search.png"/>
                                 </a>
                             </div>
                             <div className="projectLink">
                                 <a href="https://github.com/mlouis2/bullgame">
-                                    <img src={require("../images/github.png")}></img>
-                                </a>
-                            </div>
-                            <div className="projectLink">
-                                <a href="https://devpost.com/software/china-shop-bully">
-                                    <img src={require("../images/devpost.png")}></img>
+                                    <img src="https://img.icons8.com/wired/64/000000/github.png"/>
                                 </a>
                             </div>
                             <div className="projectLink">
                                 <a href="https://seavernews.lmu.edu/2020/02/21/lmu-students-take-top-prize-at-women-centric-hackathon/">
-                                    <img src={require("../images/news.png")}></img>
+                                    <img src="https://img.icons8.com/wired/64/000000/news.png"/>
                                 </a>
                             </div>
                         </div>
@@ -101,7 +96,7 @@ function Projects() {
                         <div className="links">
                             <div className="projectLink">
                                 <a href="https://github.com/mlouis2/jolt">
-                                    <img src={require("../images/github.png")}></img>
+                                    <img src="https://img.icons8.com/wired/64/000000/github.png"/>
                                 </a>
                             </div>
                         </div>
@@ -127,12 +122,7 @@ function Projects() {
                         <div className="links">
                             <div className="projectLink">
                                 <a href="https://github.com/mlouis2/Woof">
-                                    <img src={require("../images/github.png")}></img>
-                                </a>
-                            </div>
-                            <div className="projectLink">
-                                <a href="https://devpost.com/software/woof-ba90xm">
-                                    <img src={require("../images/devpost.png")}></img>
+                                    <img src="https://img.icons8.com/wired/64/000000/github.png"/>
                                 </a>
                             </div>
                         </div>
@@ -161,22 +151,17 @@ function Projects() {
                         <div className="links">
                             <div className="projectLink">
                                 <a href="https://mlouis2.github.io/classpath/">
-                                    <img src={require("../images/classpath.jpg")}></img>
+                                    <img src="https://img.icons8.com/wired/64/000000/search.png"/>
                                 </a>
                             </div>
                             <div className="projectLink">
                                 <a href="https://github.com/mlouis2/classpath">
-                                    <img src={require("../images/github.png")}></img>
-                                </a>
-                            </div>
-                            <div className="projectLink">
-                                <a href="https://devpost.com/software/classpath">
-                                    <img src={require("../images/devpost.png")}></img>
+                                    <img src="https://img.icons8.com/wired/64/000000/github.png"/>
                                 </a>
                             </div>
                             <div className="projectLink">
                                 <a href="https://seavernews.lmu.edu/2019/02/25/lmu-team-wins-hackathon-award-for-campus-map-program/">
-                                    <img src={require("../images/news.png")}></img>
+                                    <img src="https://img.icons8.com/wired/64/000000/news.png"/>
                                 </a>
                             </div>
                         </div>
@@ -204,12 +189,12 @@ function Projects() {
                         <div className="links">
                             <div className="projectLink">
                                 <a href="http://lmugrowl.appspot.com/">
-                                    <img src={require("../images/lmu.png")}></img>
+                                    <img src="https://img.icons8.com/wired/64/000000/search.png"/>
                                 </a>
                             </div>
                             <div className="projectLink">
                                 <a href="https://github.com/mlouis2/LMUgrowl">
-                                    <img src={require("../images/github.png")}></img>
+                                    <img src="https://img.icons8.com/wired/64/000000/github.png"/>
                                 </a>
                             </div>
                         </div>
@@ -236,12 +221,12 @@ function Projects() {
                         <div className="links">
                             <div className="projectLink">
                                 <a href="https://mlouis2.github.io/chaser/">
-                                    <img src={require("../images/skeleton.png")}></img>
+                                    <img src="https://img.icons8.com/wired/64/000000/search.png"/>
                                 </a>
                             </div>
                             <div className="projectLink">
                                 <a href="https://github.com/mlouis2/chaser">
-                                    <img src={require("../images/github.png")}></img>
+                                    <img src="https://img.icons8.com/wired/64/000000/github.png"/>
                                 </a>
                             </div>
                         </div>
@@ -268,12 +253,12 @@ function Projects() {
                         <div className="links">
                             <div className="projectLink">
                                 <a href="http://l2amovienight.appspot.com/">
-                                    <img src={require("../images/movienight.png")}></img>
+                                    <img src="https://img.icons8.com/wired/64/000000/search.png"/>
                                 </a>
                             </div>
                             <div className="projectLink">
                                 <a href="https://github.com/mlouis2/movienight">
-                                    <img src={require("../images/github.png")}></img>
+                                    <img src="https://img.icons8.com/wired/64/000000/github.png"/>
                                 </a>
                             </div>
                         </div>
