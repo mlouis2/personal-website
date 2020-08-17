@@ -1,7 +1,8 @@
 #headerBar {
+  align-items: center;
   border-bottom: 2px solid black;
   display: flex;
-  height: 17%;
+  height: 15%;
   justify-content: space-evenly;
   position: sticky;
   top: 0px;
