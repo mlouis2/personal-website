@@ -38,3 +38,12 @@
   font-size: 25px;
   padding-bottom: 5px;
 }
+
+@media screen and (max-width:990px) {
+  .courseTitle {
+    font-size: 14px;
+  }
+  .courseDescription {
+    font-size: 12px;
+  }
+}

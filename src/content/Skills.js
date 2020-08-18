@@ -9,10 +9,10 @@ function Skills() {
             <div id="courseHeading">Relevant Skills</div>
             <div id="skills">
                 <div className="skillSet">
-                    Languages: JavaScript, Python, Java, Golang, HTML, CSS, C#, C++, C, Swift
+                    <b>Languages:</b> JavaScript, Python, Java, Golang, HTML, CSS, C#, C++, C, Swift
                 </div>
                 <div className="skillSet">
-                    Technologies: Git, GitHub, React, Firebase, Unity, Adobe Photoshop, Google App Engine
+                    <b>Technologies:</b> Git, GitHub, React, Firebase, Unity, Adobe Photoshop, Google App Engine
                 </div>
             </div >
             <div id="courseHeading">Relevant Courses</div>
