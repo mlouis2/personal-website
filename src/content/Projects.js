@@ -8,6 +8,55 @@ function Projects() {
     return (
         <div id="projects" style={{ backgroundColor: COLORS.BEIGE }}>
             <div id="projectsList">
+            <div className="projectRow">
+                    <div className="projectCard" style={{ backgroundColor: COLORS.GREEN }}>
+                        <div className="projectTitleAndDate">
+                            <div className="projectTitle">
+                                i18n Rewrites
+                            </div>
+                            <div className="projectDate">
+                                Summer 2020
+                            </div>
+                        </div>
+                        <div className="technologies">
+                            Golang
+                        </div>
+                        <div className="projectDescription">
+                            As a part of the Firebase Hosting team, I implemented the internationalization (i18n) rewrites feature. This feature 
+                            allows for developers to configure their apps so that they can easily serve country and/or language-specific content.
+                        </div>
+                        <div className="links">
+                            <div className="projectLink">
+                                <a href="https://firebase.google.com/docs/hosting/i18n-rewrites">
+                                    <img src="https://img.icons8.com/wired/64/000000/documents.png"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="projectCard" style={{ backgroundColor: COLORS.GREEN }}>
+                        <div className="projectTitleAndDate">
+                            <div className="projectTitle">
+                                This website!
+                            </div>
+                            <div className="projectDate">
+                                Spring 2020
+                            </div>
+                        </div>
+                        <div className="technologies">
+                            ReactJS, HTML, CSS
+                        </div>
+                        <div className="projectDescription">
+                            I created the website that you're looking at now from scratch! I used ReactJS with hooks.
+                        </div>
+                        <div className="links">
+                            <div className="projectLink">
+                                <a href="https://github.com/mlouis2/personal-website">
+                                    <img src="https://img.icons8.com/wired/64/000000/github.png"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className="projectRow">
                     <div className="projectCard" style={{ backgroundColor: COLORS.GREEN }}>
                         <div className="projectTitleAndDate">

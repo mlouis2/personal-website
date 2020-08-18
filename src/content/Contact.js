@@ -25,6 +25,23 @@ function Contact() {
                     </a>
                 </div>
             </div>
+            <div id="news">
+                <div className="article">
+                    <embed src="https://seavernews.lmu.edu/2020/02/20/hackers-compete-at-lmuhacks/"/>
+                </div>
+                {/* <div className="article">
+                    <embed src="http://www.laloyolan.com/news/lmu-female-hackathon-winners/article_3c2288bb-eafd-538a-a441-091e45e9825e.html"/>
+                </div> */}
+                <div className="article">
+                    <embed src="https://seavernews.lmu.edu/2019/02/25/lmu-team-wins-hackathon-award-for-campus-map-program/"/>
+                </div>
+                <div className="article">
+                    <embed src="https://sftvnewsroom.lmu.edu/women-team-wins-hackathon-award-lmu-map-program/"/>
+                </div>
+                {/* <div className="article">
+                    <embed src="https://firebase.google.com/docs/hosting/i18n-rewrites"/>
+                </div> */}
+            </div>
         </div >
     );
 }

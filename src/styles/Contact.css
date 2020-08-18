@@ -10,6 +10,18 @@
 #contactOptions {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 50px;
+  padding-top: 30px;
   width: 60%;
+}
+
+embed {
+  border-radius: 10px;
+  height: 50vh;
+  margin-top: 5vh;
+  width: 60vh;
+}
+
+#news {
+  display: flex;
+  justify-content: space-evenly;
 }

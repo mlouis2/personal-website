@@ -9,7 +9,7 @@
 }
 
 .skillSet {
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 #courseHeading {
@@ -19,6 +19,7 @@
 }
 
 .courseRow {
+  align-items: center;
   display: flex;
   justify-content: space-evenly;
   padding-bottom: 15px;
@@ -28,6 +29,7 @@
   border: 2px solid black;
   border-radius: 15px;
   color: white;
+  height: fit-content;
   padding: 10px;
   width: 30vw;
 }
