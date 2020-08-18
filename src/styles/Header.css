@@ -9,8 +9,10 @@
 }
 
 #title {
-  font-size: 60px;
+  font-size: 5vw;
   line-height: 15vh;
+  text-align: center;
+  width: 40vw;
 }
 
 #iconsLeft,
@@ -26,4 +28,14 @@
   color: black;
   cursor: pointer;
   text-align: center;
+}
+
+@media screen and (max-width:990px) {
+  .icon img {
+    height: 30px;
+    width: 30px;
+  }
+  .icon p {
+    font-size: 2vw;
+  }
 }

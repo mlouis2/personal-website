@@ -39,3 +39,20 @@
 #cardTitle {
   font-size: 50px;
 }
+
+
+@media screen and (max-width:990px) {
+  #photo img {
+    height: 30vw;
+    width: 30vw;
+  }
+  #intro {
+    display: grid;
+    height: 60vh;
+    justify-items: center;
+    padding-top: 30px;
+  }
+  #card {
+    width: 60vw;
+  }
+}
